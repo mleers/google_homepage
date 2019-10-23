@@ -1,0 +1,122 @@
+body {
+    font-family: arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    height: 100%;
+}
+
+/* center google logo */
+
+.maingooglelogo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-left: 30px;
+}
+
+/* center search bar, "Google Search", and "I'm Feeling Lucky" */
+form {
+    text-align: center;
+}
+
+/* search bar formatting and style */
+
+.search {
+    border-radius: 25px;
+    padding-left:40px;
+    margin-top: 25px;
+    width: 575px;
+    height: 42.5px;
+    border: #dfe1e5 1px solid;
+    
+    background-image:url("https://www.seekclipart.com/clipng/middle/70-709132_search-magnifying-glass-icon-png-grey-clipart.png"), url("https://icon-library.net/images/android-mic-icon/android-mic-icon-8.jpg");
+    background-position: 2% 50%, 98% 50%;
+    background-repeat: no-repeat;
+    background-size: 15px, 25px; 
+      
+}
+
+/* focus wraps search bar and not a rectangle around it after being clicked */
+
+.search:focusbar {
+    outline: none; 
+}
+
+/* spacing of search bar */
+
+.submit {
+    border-radius: 5px;
+    margin: 30px 6px 8px 6px;
+    background-color: #F3F3F3;
+    color: #5F6368;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    font-size: 14px;
+}
+
+.submit:hover {
+    border: #5F6368 solid 1px;
+}
+
+/* used to position "About" and "Store" on top left */
+.nav-icon-left {
+float: left;
+}
+
+/* right-justifies "Gmail", "Images", and "Google Apps" logo to top right */
+
+.nav-icon-right {
+float:right;
+}
+
+/* allocates padding for nav elements */
+
+nav {
+    padding: 15px;
+}
+
+/* defines styling for any "a" elements in index.html */
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #373936;
+    font-family: Arial, sans-serif;
+    margin: auto 18px auto auto;
+}
+
+/* underlines text upon hovering over "a" links index.html */
+a:hover {
+    text-decoration: underline;
+}
+
+.smalladjust {
+    position: relative;
+    bottom: 4px;
+}
+
+/* defines position of footer to be at bottom of page */
+
+footer {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #5F6368;
+    height: 2.5em;
+}
+
+/* adjusts "Advertising", "Business", "How Search Works" to lower left */
+
+.foot-left {
+    float: left;
+}
+
+/* adjusts "Privacy", "Terms", "Settings" to lower right */
+
+.foot-right {
+    float: right;
+}
+
